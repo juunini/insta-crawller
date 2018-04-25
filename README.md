@@ -25,3 +25,6 @@ followCrawller_facebookLogin(urlFile, chromedriverLocation, saveLocation, yourid
 > `followCrawller_instaLogin(urlFile, chromedriverLocation, saveLocation, yourid, yourpassword)` and<br>
 > `followCrawller_facebookLogin(urlFile, chromedriverLocation, saveLocation, yourid, yourpassword)` is<br>
 > if you need to SNA you can gathering (follower - user, user - following).
+
+this mechanism is scrolling and crawlling, waiting 6 seconds and repeat.<br>
+if you retouch `time.sleep(6)` is less then '6', you meet 'loading failed' again and again and again...
