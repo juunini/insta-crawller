@@ -3,7 +3,7 @@
 ### you need chromedriver and selenium(pip3 install selenium)
 
 ```
-from * import instaCrawller
+from instaCrawller import *
 
 hashtagUrlCrawller(tag, chromedriverLocation, saveLocation)
 userPostUrlCrawller(userID, chromedriverLocation, saveLocation)
